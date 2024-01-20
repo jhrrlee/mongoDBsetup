@@ -1,0 +1,11 @@
+{
+    "github.copilot.enable": {
+        "scminput": "true",
+        "python": "true",
+        "JSON": "true",
+        "git": "true",
+        "PowerShell": "true"
+    },
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/f74e320b-1677-4bb8-855d-8fd527a71882/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Flaskmongo",
+    "appService.deploySubpath": "."
+}
