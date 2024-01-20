@@ -27,9 +27,9 @@ app: Flask = Flask(__name__)
 #     return 'Hi!'
 
 # # our initial form page
-# @app.route('/')
-# def index():
-# 	return render_template('index.html')
+@app.route('/')
+def index():
+	return render_template('index.html')
 
 # CREATE and READ 
 @app.route('/battery', methods=["GET", "POST"])

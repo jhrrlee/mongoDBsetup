@@ -1,1 +1,0 @@
-Invoke-WebRequest -Uri "http://localhost:5000/battery" -Method GET
