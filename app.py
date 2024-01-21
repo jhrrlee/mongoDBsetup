@@ -7,14 +7,14 @@ from pymongo import MongoClient
 from pymongo.collection import Collection
 from pymongo.database import Database
 
-# access your MongoDB Atlas cluster
-load_dotenv()
-connection_string: str = os.environ.get('CONNECTION_STRING')
-mongo_client: MongoClient = MongoClient(connection_string)
+# # access your MongoDB Atlas cluster
+# load_dotenv()
+# connection_string: str = os.environ.get('CONNECTION_STRING')
+# mongo_client: MongoClient = MongoClient(connection_string)
 
-# add in your database and collection from Atlas 
-database: Database = mongo_client.get_database('TeslaData')
-collection: Collection = database.get_collection('battery')
+# # add in your database and collection from Atlas 
+# database: Database = mongo_client.get_database('TeslaData')
+# collection: Collection = database.get_collection('battery')
 
 # book = {'VIN': '111111111', 'SOC': 99.9}
 # collection.insert_one(book)
